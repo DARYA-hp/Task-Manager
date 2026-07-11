@@ -2,7 +2,7 @@
 
 A modern and responsive Task Management application built with **Next.js**, **React**, **TypeScript**, **Redux Toolkit**, and **Tailwind CSS**.
 
-This portfolio project demonstrates modern frontend development practices, including user authentication, workspace management, scalable architecture, reusable components, and state management.
+This portfolio project demonstrates modern frontend development practices, including user authentication, workspace management, theme customization, scalable architecture, reusable components, and state management.
 
 ---
 
@@ -14,12 +14,48 @@ This portfolio project demonstrates modern frontend development practices, inclu
 - 🗂️ Workspace Management
 - 📝 Create, Edit, and Delete Tasks
 - 📋 List View & Board View
-- 🎨 Dark & Light Theme Switching
+- 🌙 Dark & Light Theme Switching
 - 🪟 Interactive Modals
 - 📱 Fully Responsive Design
 - ⚡ Global State Management with Redux Toolkit
 - 🧩 Reusable Components using Atomic Design
-- 💾 Data persistence with Local Storage
+- 💾 Data Persistence with Local Storage
+
+---
+
+## 📸 Screenshots
+
+### Login
+
+![Login](./screenshot/login.png)
+
+### Workspace
+
+![Workspace](./screenshot/workspace.png)
+
+### Board View
+
+![Board View](./screenshot/board%20page.png)
+
+### List View
+
+![List View](./screenshot/list%20page.png)
+
+### Add Project / Task
+
+![Add Project](./screenshot/add%20project.png)
+
+### Profile & User Information
+
+![User Information](./screenshot/user%20info.png)
+
+### Theme Settings
+
+![Theme Settings](./screenshot/theme%20info.png)
+
+### Dark Mode
+
+![Dark Mode](./screenshot/darkmode.png)
 
 ---
 
@@ -39,7 +75,7 @@ This portfolio project demonstrates modern frontend development practices, inclu
 
 ## 🏗️ Architecture
 
-The project follows the **Atomic Design** methodology to build reusable, scalable, and maintainable UI components.
+The project follows the **Atomic Design** methodology to create reusable, scalable, and maintainable UI components.
 
 ```
 components/
@@ -55,7 +91,7 @@ components/
 
 This project is a frontend-focused portfolio application.
 
-User authentication, profile information, workspaces, and tasks are stored using **Local Storage**. No backend or external API is used in this version.
+User authentication, profile information, workspaces, and tasks are managed and stored using **Local Storage**. No backend or external API is used in this version.
 
 ---
 
@@ -79,7 +115,7 @@ Run the development server:
 npm run dev
 ```
 
-Then open:
+Open your browser and visit:
 
 ```
 http://localhost:3000
@@ -89,7 +125,7 @@ http://localhost:3000
 
 ## 📌 Project Status
 
-✅ Completed – Portfolio Project
+✅ Completed — Portfolio Project
 
 ---
 
